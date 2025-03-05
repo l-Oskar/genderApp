@@ -5,7 +5,13 @@ const Result = () => {
   const totalScore = store.boy + store.girl;
 
   const finalResult = () => {
-    const score = `Хлопчик: ${store.boy}  |  Дівчинка: ${store.girl}`;
+    const score = (
+      <span>
+        Дівчинка: {store.girl} <br />
+        Хлопець: {store.boy} <br /> <br />
+        Голосів: {totalScore}
+      </span>
+    );
     if (store.boy > store.girl) {
       return (
         <>
@@ -15,7 +21,6 @@ const Result = () => {
           <h1>Хлопчик!</h1>
           <hr className="hr" />
           <h2>{score}</h2>
-          <h2>Голосів {totalScore}</h2>
         </>
       );
     }
@@ -28,7 +33,6 @@ const Result = () => {
           <h1>Дівчинка!</h1>
           <hr className="hr" />
           <h2>{score}</h2>
-          <h2>Голосів {totalScore}</h2>
         </>
       );
     } else {
@@ -39,7 +43,6 @@ const Result = () => {
           <h1>Нічия!</h1>
           <hr className="hr" />
           <h2>{score}</h2>
-          <h2>Голосів {totalScore}</h2>
         </>
       );
     }

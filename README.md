@@ -1,12 +1,32 @@
-# React + Vite
+# 🍼 GenderApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+(Only for Smatphones📲)
+GenderApp is a simple web application that collects and displays voting results for a gender reveal party. Guests can choose their prediction (Boy/Girl) and confirm their vote. After all votes are submitted, the results are displayed with a slight delay to add some suspense and excitement to the event.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Vote for Gender**: Guests can choose between "Boy" or "Girl" and confirm their vote.
+- **Delayed Results**: After all participants have voted, the result is displayed with a delay to build suspense.
+- **Real-time updates**: The app uses React and Redux Toolkit to manage state and ensure smooth user interaction.
+- **Lazy Loading**: To improve performance, the app uses Lazy Loading to load components only when they are needed.
 
-## Expanding the ESLint configuration
+## ⚙️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **HTML**: For structuring the application.
+- **CSS**: For styling the app and making it responsive.
+- **React**: For building the user interface and handling the component lifecycle.
+- **JavaScript**: For adding interactivity and handling logic.
+- **Vite**: For fast development and build tooling.
+- **Redux Toolkit**: For managing state and handling the logic of storing and displaying voting results.
+- **Lazy Loading**: For loading components on demand, improving the initial load time and performance.
+
+## ❓ How to Run the Project
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/l-oskar/genderApp.git
+   cd genderApp
+   npm install --legacy-peer-deps
+   npm run dev
+   ```

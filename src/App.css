@@ -5,14 +5,15 @@
 }
 
 .headIcon {
-  font-size: 3em;
+  font-size: 2em;
 }
 .headIcon2 {
-  font-size: 8em;
+  font-size: 5em;
 }
 
 button {
   transition: all 0.2s ease-in-out;
+  color: white !important;
 }
 button:active {
   transform: scale(0.95);
@@ -29,7 +30,7 @@ h2 {
 }
 
 .container {
-  height: 100vh;
+  height: 90vh;
   display: grid;
   gap: 2vh;
   justify-content: center;
@@ -42,7 +43,7 @@ h2 {
   border-radius: 8px;
   border: 2px solid #f64f59;
   padding: 0.6em 1.2em;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 500;
   font-family: inherit;
   background-color: #12c2e9;
@@ -64,7 +65,7 @@ h2 {
   border-radius: 8px;
   border: 2px solid #12c2e9;
   padding: 0.6em 1.2em;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 500;
   font-family: inherit;
   background-color: #f64f59;
@@ -87,7 +88,7 @@ h2 {
   border-radius: 8px;
   border: 2px solid #4caf50;
   padding: 0.6em 1.2em;
-  font-size: 2em;
+  font-size: 1em;
   font-weight: 500;
   font-family: inherit;
   background-color: #4caf50;
@@ -133,13 +134,13 @@ h2 {
 }
 
 .baby_icon {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   margin: 0 auto;
 }
 
 .final_result {
-  font-size: 1.5em;
+  font-size: 1em;
   margin-top: 8vh;
   display: grid;
   justify-content: center;
@@ -147,16 +148,16 @@ h2 {
 }
 
 .dna {
-  margin-top: 20vh;
+  margin-top: 8vh;
   display: grid;
   justify-content: center;
 }
 
 h2:first-of-type {
-  margin-top: 5vh;
+  margin-top: 3vh;
 }
 
 .hr {
   width: 100%;
-  margin-top: 5vh;
+  margin-top: 3vh;
 }

@@ -14,14 +14,14 @@ function App() {
     setTimeout(() => {
       setResult(true);
       setLoading(false);
-    }, 500);
+    }, 5000);
   };
 
   return (
     <>
       {loading ? (
         <div className="dna">
-          <h2>Завантаження результатів...</h2>
+          <h2>⏳ Завантаження результатів...</h2>
           <DNA
             visible={true}
             height="350"
