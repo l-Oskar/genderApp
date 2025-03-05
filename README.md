@@ -20,13 +20,11 @@ GenderApp is a simple web application that collects and displays voting results 
 - **Redux Toolkit**: For managing state and handling the logic of storing and displaying voting results.
 - **Lazy Loading**: For loading components on demand, improving the initial load time and performance.
 
-## ❓ How to Run the Project
+## ❓ How to Run the Project:
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/l-oskar/genderApp.git
-   cd genderApp
-   npm install --legacy-peer-deps
-   npm run dev
-   ```
+```bash
+git clone https://github.com/l-oskar/genderApp.git
+cd genderApp
+npm install --legacy-peer-deps
+npm run dev
+```
