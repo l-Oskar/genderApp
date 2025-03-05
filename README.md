@@ -1,6 +1,6 @@
 # 🍼 GenderApp
 
-(Only for Smatphones📲)
+(Better on Smatphones📲)
 GenderApp is a simple web application that collects and displays voting results for a gender reveal party. Guests can choose their prediction (Boy/Girl) and confirm their vote. After all votes are submitted, the results are displayed with a slight delay to add some suspense and excitement to the event.
 
 ## 🚀 Features
